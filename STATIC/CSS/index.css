@@ -2,7 +2,17 @@
 body{
     background-color: #02CAF2;
     color: #F8F4F9;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 1.18;
+    text-align: justify;
+}
+
+h2,h4{
+    letter-spacing: 2px;
 }
 
 a{
@@ -24,13 +34,21 @@ nav{
 
 }
 
-
+main{
+    padding: 20px 0px;
+}
 
 
 
 
 /***
 */
+
+.tamanho{
+    max-width: 1366px;
+    text-align: center;
+    margin: 0px auto;
+}
 .menu{
 
 }
@@ -156,7 +174,7 @@ span a{
     padding-bottom: 4px;
 }
 .direita p{
-    height: 48px;
+    height: 54px;
     overflow: hidden;
     
     
@@ -171,8 +189,13 @@ span a{
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
     background-color:#F2ED6F ;
+    position:absolute;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0px auto;
+    bottom:0;
 }
 footer img{
     width: 80px;
