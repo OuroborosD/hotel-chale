@@ -2,6 +2,7 @@
 body{
     background-color: #02CAF2;
     color: #F8F4F9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -15,7 +16,7 @@ header{
 }
 
 nav{
-    background: url(../imagens/topo-imagem-lateral.png) no-repeat  right;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat  right, url(../imagens/logo.png) no-repeat top left;
     height: 250px;
     text-align: right;
     padding-right:  18px ;
@@ -61,6 +62,8 @@ nav{
 
 span a{
     text-decoration: none;
+    color: #F8F4F9;
+    font-weight: bold;
 }
 
 
@@ -95,24 +98,40 @@ span a{
 .conteudo{
     float: left;
     width: 50%;
+    margin: 0px auto  0px 12px;
+}
+
+.conteudo h2{
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 20px 0px 12px 0px ;
+}
+
+.conteudo p{
+    padding: 12px 0px;
+    
 }
 
 .features{
     float: right;
-    width: 48%;
+    width: 46%;
+    margin-top: 10px;
+    box-shadow: -2px -1px 6px #1E3888 ;
     
 }
 
 .barra-lateral{
     padding: 18px ;
-    background-color:#1E3888 ;
-    margin: 10px auto;
-    
+    background: #1E3888 url(../imagens/linha.png) repeat-x;
+    margin: 0px auto;
 }
 
+
+
 .barra-lateral:hover{
-    height: 150px;
-    padding-top: 15%;
+    background-color: rgb(30, 56, 136, 0.5);
+    
 }
 
 .esquerda {
@@ -147,4 +166,20 @@ span a{
 
 .clear{
     clear: both;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:#F2ED6F ;
+}
+footer img{
+    width: 80px;
+}
+
+footer p{
+    color: #1E3888;
+    font-weight: bold;
+    font-size: 12px;
 }
