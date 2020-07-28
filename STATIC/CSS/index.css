@@ -1,0 +1,150 @@
+
+body{
+    background-color: #02CAF2;
+    color: #F8F4F9;
+}
+
+a{
+    color: #545454;
+}
+
+header{
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    height: 250px;
+    margin: 0px auto;
+}
+
+nav{
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat  right;
+    height: 250px;
+    text-align: right;
+    padding-right:  18px ;
+    
+
+}
+
+
+
+
+
+
+/***
+*/
+.menu{
+
+}
+
+.div-p{
+    padding-top: 6px ;
+}
+
+.div-p p{
+    
+    background: url(../imagens/div.png) repeat-x;
+    line-height: 40px;
+    display: inline-block;
+ 
+}
+
+.link-cab{
+    padding-right: 140px;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+.div-p span{
+    padding: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #02CAF2;
+    text-transform: uppercase;
+}
+
+span a{
+    text-decoration: none;
+}
+
+
+
+.div-ul{
+    
+    background: url(../imagens/depoimento.png) no-repeat right center ;
+    height: 226px;
+    
+} 
+
+.menu li{
+    font-size: 22px;
+    padding: 12px 260px 0px 0px;
+    margin: 8px auto;
+}
+
+.menu li:first-child{
+    padding-top: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+
+
+/*** main
+*/
+
+
+.conteudo{
+    float: left;
+    width: 50%;
+}
+
+.features{
+    float: right;
+    width: 48%;
+    
+}
+
+.barra-lateral{
+    padding: 18px ;
+    background-color:#1E3888 ;
+    margin: 10px auto;
+    
+}
+
+.barra-lateral:hover{
+    height: 150px;
+    padding-top: 15%;
+}
+
+.esquerda {
+    float: left;
+    width: 30%;
+}
+.esquerda img{
+    width: 100%;
+    
+}
+
+.direita{
+    float: right;
+    width: 65%;
+    
+    
+}
+
+.direita h4{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 4px;
+}
+.direita p{
+    height: 48px;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.clear{
+    clear: both;
+}
